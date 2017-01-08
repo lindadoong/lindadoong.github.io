@@ -163,6 +163,75 @@ footer hr {
   }
 }
 
+#body.contact div form {
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 36px 0 0;
+  width: 503px;
+}
+
+#body.contact div h1 {
+  font-weight: 200;
+  margin: 0 auto 18px;
+}
+#body.contact div form input {
+  background: none;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  height: 39px;
+  line-height: 43px;
+  margin: 0 0 17px;
+  padding: 0 4px;
+  text-align: center;
+  width: 491px;
+}
+
+#body.contact div form textarea {
+  background: none;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: normal;
+  height: 87px;
+  line-height: 24px;
+  margin: 0 0 22px;
+  overflow: auto;
+  padding: 7px 4px 0;
+  resize: none;
+  text-align: center;
+  width: 491px;
+}
+
+#body.contact div form input#submit {
+  background: none;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  height: 43px;
+  line-height: 43px;
+  margin: 0 auto 16px;
+  padding: 0;
+  text-align: center;
+  width: 143px;
+}
+
+#body.contact div form input#submit:hover {
+  background-color: #fb416f;
+  border: none;
+  height: 43px;
+  width: 143px;
+}
 
 /* ------------------- Grid -------------------*/
 

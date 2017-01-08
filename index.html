@@ -8,8 +8,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
 	<!-- stylesheets -->
 	<link rel="stylesheet" href="style.css" type="text/css" />
-	<!-- favicon -->
-	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- favicon 
+	<link rel="shortcut icon" href="img/favicon.ico"> -->
+	<link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
 	
 	<!-- just in case viewer is using Internet Explorer -->
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -168,6 +169,19 @@
 		</section>
 		-->
 		
+		</div>
+		<div id="body" class="contact">
+			<div>
+				<h1>C O N T A C T</h1>
+				<form action="index.html">
+					<input type="text" name="name" value="Name" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
+					<input type="text" name="email" value="Email" onblur="this.value=!this.value?'Email':this.value;" onfocus="this.select()" onclick="this.value='';">
+					<input type="text" name="Subject" value="Subject" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
+					<textarea name="message" cols="50" rows="7">Message</textarea>
+					<input type="submit" value="Send" id="submit">
+				</form>
+			</div>
+		</div>
 		
 		<!--Footer-->
 		<footer class="center">
