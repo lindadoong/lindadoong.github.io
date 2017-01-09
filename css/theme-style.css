@@ -237,6 +237,14 @@ div#about {
 .skills-grid p{
 	color: #FCE2E5;
 }
+
+.break img {
+	display: block;
+	margin: auto;
+	width: 25%;
+	height: 25%;
+}
+
 /*----start-portfolio-----*/
 .portfolio-main{
 	padding:1.5% 0 4%;
@@ -272,6 +280,7 @@ div#about {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-o-box-sizing: border-box;
+		background: #fb6d7c;
 		width: 32%;
 		display:none;
 		float:left;
