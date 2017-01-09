@@ -1,196 +1,281 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Linda Doong</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<!--Custom fonts. To improve load times, remove this and update the h1 styling in style.css--> 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
-	<!-- stylesheets -->
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<!-- favicon 
-	<link rel="shortcut icon" href="img/favicon.ico"> -->
-	<link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
-	
-	<!-- just in case viewer is using Internet Explorer -->
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-</head>
-
-<body>
-	
-	<!-- Header-->
-	<header>
-		<h1>Linda Doong</h1>
-		<p>Computer Science student at Berkeley</p>
-	</header>
-	
-	<div class="container">
-		
-		<!-- Introduction-->
-		<section class="center">
-			<h1>W E L C O M E !</h1>
-			<p>
-				Hello! I am a second-year undergraduate from San Jose, California studying computer science at UC Berkeley. I enjoy developing games and am now looking into mobile app development. 
-			</p>
-		</section>
-
-		<div class="socialbtns">
-    		<ul>
-    			<li><a href="https://www.linkedin.com/in/linda-doong-147472123" class="fa fa-lg fa-linkedin"></a></li>
-    			<li><a href="https://github.com/lindadoong" class="fa fa-lg fa-github"></a></li>
-    			<li><a href="https://www.facebook.com/ldoong" class="fa fa-lg fa-facebook"></a></li>
-    			<li><a href="linda.doong@gmail.com" class="fa fa-lg fa-envelope"></a></li>
-    		</ul>
-    	</div>
-
-		<!--<hr>-->
-		
-		<!-- Gallery Block-->
-		<!--
-		<section class="gallery">
-			<h1 class="center">G A L L E R Y</h1>
-			<div class="row">
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-				<a href="#"><img src="img/re.png" class="grid-2"></a>
-			</div>
-		</section> 
-		-->
-
-		<!--<hr>-->
-	</div> <!-- End container-->
-	
-	<!-- Spotlight -->
-	<section class="spotlight">
-		<div class="container">
-			<div class="row">
-				<div class="grid-3">
-					<img src="img/screenshot.png">
-				</div>
-				<div class="grid-3">
-					<h1>Project Spotlight: Scrubble</h1>
-					<p>A basic, beat-the-clock version of Scrabble.</p>
-					<a href="https://github.com/lindadoong">Check it out!</a>
-				</div>
-			</div>
-		</div>
-	</section>
-		
-	<section class="contact">
-		<div class="container">
-			<h1>C O N T A C T</h1>
-			<form action="index.html">
-				<input type="text" name="name" value="Name" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
-				<input type="text" name="email" value="Email" onblur="this.value=!this.value?'Email':this.value;" onfocus="this.select()" onclick="this.value='';">
-				<input type="text" name="Subject" value="Subject" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
-				<textarea name="message" cols="50" rows="7">Message</textarea>
-				<input type="submit" value="Send" id="submit">
-			</form>
-		</div>
-	</section>
-	
-	
-	<!-- New container-->
-	<div class="container">
-	
-		<!--
-		<section class="education">	
-			<h2>University of California, Berkeley</h2>
-		</section>
-		-->
-
-		<!--<hr>-->
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Linda Doong</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/fav-icon.png" />
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		 <script src="js/bootstrap.min.js"></script>
+		 <script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,200,700,800,900' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<!----script-for-smoth-scroling---->
+		<script type="text/javascript">
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			
-		<!--Experience Tables-->
-		<!--
-		<section class="experience">
-			<div class="row">
-				<div class="grid-2">
-					<h2>Google</h2>
-					<p>Engineering Practicum Intern</p>
-					<p>May 2017 - Aug 2017</p>
-				</div>
-				<div class="grid-4">
-					<ul>
-						<li>This is a place to give highlights of your work and responsibilities</li>
-						<li>This is a place to give highlights of your work and responsibilities</li>
-						<li>This is a place to give highlights of your work and responsibilities. This is an example of a longer block with more text.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="grid-2">
-					<h2>Bellus3D </h2>
-					<p>Research Intern</p>
-					<p>May 2016 - Aug 2016</p>
-				</div>
-				<div class="grid-4">
-					<ul>
-						<li>This is a place to give highlights of your work and responsibilities</li>
-						<li>This is a place to give highlights of your work and responsibilities</li>
-						<li>This is a place to give highlights of your work and responsibilities. This is an example of a longer block with more text.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
-				<div class="grid-2">
-					<h2>Company Name</h2>
-					<p>Aug. 2011 - Sept. 2012</p>
-				</div>
-				<div class="grid-4">
-					<ul>
-						<li>This is a place to give highlights of your work and responsibilities</li>
-						<li>This is a place to give highlights of your work and responsibilities</li>
-						<li>This is a place to give highlights of your work and responsibilities. This is an example of a longer block with more text.</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-		
-		<hr>
-		
-		<section>
-			<should be a comment List of skills>
-			<div class="row">
-				<div class="grid-2">
-					<h1>Skills</h1>
-					<ul>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Javascript</li>
-						<li>Angular.js</li>
-						<li>Photoshop</li>
-						<li>Git</li>
-					</ul>
-				</div>
-				
-				<div class="grid-4">
-					<h1>In Conclusion</h1>
-					<p>
-						This is a good spot to highlight experience and skills. Make sure to include a call to action like a link to your website, or your email address.
-						If you find bugs, want features, or have questions, feel free to submit an <a href="https://github.com/philipcdavis/responsive-resume/issues">issue</a>. You are free to use without attribution.
-						If you're ok sharing, I would love seeing what you make! Shoot me an
-						<a href="mailto:Phillysoul11@gmail.com?Subject=Responsive%20Resume" target="_top">email</a> or
-						<a href="http://www.twitter.com/philipcdavis">tweet</a> at me.
-					</p>
-				</div>
-			</div>
-		</section>
-		-->
-		
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
+		</script>
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//script-for-smoth-scroling---->
+	</head>
+	<body>
+		<!----start-header--->
+		<div id="top" class="header">
+		<!----start-container---->
+		<div class="container">
+            <!--top-nav-->
+           <nav class="top-nav">
+				<ul class="top-nav">
+					<li class="active"><a href="#home">Home</a></li>
+					<li class="page-scroll"><a href="#about">About</a></li>
+					<!--<li class="page-scroll"><a href="#skills">Skills</a></li>-->
+				    <li class="page-scroll"><a href="#port">Portfolio</a></li>
+					<li class="page-scroll"><a href="#contact">Contact</a></li>
+				</ul>
+				<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+			</nav>
+             <!--//top-nav-->
+        </div>
+        </div>
+        <!----//End-header--->
+        <!----start-slider---->
+        <!----slider-requried-files--->
+	    <link rel="stylesheet" href="css/fwslider.css" media="all">
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/fwslider.js"></script>
+        <!----//slider-requried-files--->
+        <!---start-image-slider---->
+		<div class="slider">
+			 <div id="fwslider">
+		        <div class="slider_container">
+		            <div class="slide"> 
+		                <!-- Slide image -->
+		                    <img class="slide-img " src="images/slider-bg.jpg" alt=""/>
+		                <!-- /Slide image -->
+		                <!-- Texts container -->
+		                <div class="slide_content">
+		                    <div class="slide_content_wrap">
+		                       <h1 class="title">Linda Doong</h1>
+		                       <p  class="description">Computer Science student at Berkeley</p>
+		                    </div>
+		                </div>
+		                 <!-- /Texts container -->
+		            </div>
+		            <!-- /Duplicate to create more slides -->
+		            <div class="slide">
+		                <img class="slide-img" src="images/slider-bg.jpg" alt=""/>
+		                <div class="slide_content">
+		                     <div class="slide_content_wrap">
+		                       <h1 class="title">Linda Doong</h1>
+		                       <p  class="description">Experimental chef, hiking enthusiast, and green tea lover</p>
+		                    </div>
+		                </div>
+		            </div>
+		            <!--/slide -->
+		        </div>
+		        <div class="timers"> </div>
+		        <div class="slidePrev"><span> </span></div>
+		        <div class="slideNext"><span> </span></div>
+		    </div>
+			<!---End-image-slider---->
 		</div>
-		
-		<!--Footer-->
-		<footer class="center">
-			<hr>
-			<span>&copy; Linda Doong 2016</span>
-		</footer>
-		
-	</div><!-- End Container -->
-	
-</body>
+        <!----//End-slider---->
+        <!----start-about-us---->
+        <div id="about" class="container about">
+        	<div class="text-center div-head">
+        		<h2>W E L C O M E !</h2>
+        		<p>Hello! I am a second-year undergraduate from San Jose, California studying computer science at UC Berkeley. I enjoy developing games and am now looking into mobile app development.</p>
+        	</div>
+        </div>
+         <!----//End-about-us---->
+         <!----start-skillls--
+         <div id="skills" class="skills">
+         	<div class="container">
+	         	<div class="text-center div-head skills-head">
+	        		<h2>OUR SKILLS</h2>
+	        		<p>Butterfly is a modern psd theme made to look awesome on any size of screen. single page template for creative agency .</p>
+	        	</div>
+	        	<div class="row skills-grids">
+	        		<div class="col-md-3 skills-grid text-center">
+	        			<span class="s-icon1"><strong>80%</strong></span>
+	        			<h3>Web Design</h3>
+	        			<p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p>
+	        		</div>
+	        		<div class="col-md-3 skills-grid text-center">
+	        			<span class="s-icon2"><strong>65%</strong></span>
+	        			<h3>WordPress</h3>
+	        			<p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p>
+	        		</div>
+	        		<div class="col-md-3 skills-grid text-center">
+	        			<span class="s-icon3"><strong>50%</strong></span>
+	        			<h3>JQuery</h3>
+	        			<p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p>
+	        		</div>
+	        		<div class="col-md-3 skills-grid text-center">
+	        			<span class="s-icon4"><strong>90%</strong></span>
+	        			<h3>HTML</h3>
+	        			<p>Lorem ipsum dolor sit amet,consectetur adipisicing..</p>
+	        		</div>
+	        		<div class="clearfix"> </div>
+	        	</div>
+        	</div>
+         </div> -->
+         <!----//End-skillls----> 
+         <!----start-portfolio---->
+         <div id="port" class="container portfolio-main">
+         		<div class="text-center div-head">
+	        		<h2>P O R T F O L I O</h2>
+	        		<p>Check it out!</p>
+	        	</div>
+	        	<!---- start-portfolio-script----->
+					<script src="js/hover_pack.js"></script>
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+					<!----//End-portfolio-script----->
+					<ul id="filters" class="clearfix">
+					</ul>
+					<div id="portfoliolist">
+					<div class="portfolio logo1 mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="clearfix"> </div>	
+					<a class="more-ports text-center" href="#"><span> </span></a>																																				
+				</div>
+		</div>
+         <!----//End-portfolio---->
+
+	       		<!----start-get-in-touch---->
+	       			<div id="contact" class="get-in-touch">
+	       				<div class="container">
+	       				<div class="text-center div-head">
+			        		<h2>C O N T A C T</h2>
+			        		<ul class="list-unstyled list-inline get-share text-center">
+			        			<li><a href="#"><span class="face"> </span> </a></li>
+			        			<li><a href="#"><span class="git"> </span> </a></li>
+			        			<li><a href="#"><span class="in"> </span> </a></li>
+			        		</ul>
+			       		</div>
+			       		<div class="col-md-7 text-center text-boxs">
+			       			<form>
+			       				<input type="text" placeholder="Name" required />
+				       			<input type="text" placeholder="Email" required />
+				       			<textarea>Message</textarea>
+				       			<input type="submit" value=" " />
+			       			</form>
+			       		</div>
+			       		<div class="col-md-5 address">
+			       			<h3>Leave a message!</h3>
+			       			<ul class="list-unstyled list-inline">
+			       				<li><a href="#"> <span class="map-pin"> </span></a></li>
+			       				<li><p>Berkeley, California</p></li>
+			       			</ul>
+			       			<ul class="list-unstyled list-inline">
+			       				<li><a href="#"> <span class="msg"> </span></a></li>
+			       				<li><p> <a href="linda.doong@gmail.com">linda.doong@gmail.com</a></p></li>
+			       			</ul>
+			       		</div>
+	       			</div>
+	       			</div>
+	       		<!----//End-get-in-touch---->
+		<!----//End-container---->
+	</body>
 </html>
+
