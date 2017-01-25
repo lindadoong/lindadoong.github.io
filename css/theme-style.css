@@ -486,38 +486,6 @@ p.m_5 {
 	display: inline-block;
 }
 /*----*/
-/*----start-words----*/
-.words{
-	background: #2C3E50;
-	padding: 4.5% 0 4%;
-}
-.words h3{
-	font-size: 3em;
-	color: #FFF;
-	font-weight: 800;
-	letter-spacing: 0.06em;
-}
-.words h3 span{
-	width:57px;
-	height:46px;
-	display:inline-block;
-	background:url(../images/words-icons.png) no-repeat 0px 0px;
-}
-.words h3 span.frist-quit{
-	background-position:0px 0px;
-	margin-right:1em;
-}
-.words h3 span.second-quit{
-	background-position: -30px 0px;
-	margin-left:1em;
-}
-.words h4{
-	color: #FFF;
-	font-size: 1.6em;
-	font-weight: 300;
-	margin: 3% 0;
-}
-/*----start-team----*/
 /* Common division block */
 .holder{
 	position: relative;
@@ -678,23 +646,13 @@ p.m_5 {
 .get-share li a span.face{
 	background-position:1px 1px;
 }
-.get-share li a span.twitt{
-	background-position: -40px 1px;
+.get-share li a span.git{
+	background: url(../images/git.png) no repeat 1px 1px;
+	background-position: -83px 1px;
 }
-.get-share li a span.gplus{
-	background-position: -82px 1px;
-}
-.get-share li a span.you{
-	background-position: -124px 1px;
-}
+
 .get-share li a span.in{
 	background-position: -166px 1px;
-}
-.get-share li a span.be{
-	background-position: -207px 1px;
-}
-.get-share li a span.ta{
-	background-position: -249px 1px;
 }
 /*---*/
 .address h3{
